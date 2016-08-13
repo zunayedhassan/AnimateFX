@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 7, 2016, 1:38:58 PM
+    Author     : Zunayed Hassan
+*/
+
+#big-yellow {
+    -fx-background-color: 
+        #ecebe9,
+        rgba(0,0,0,0.05),
+        linear-gradient(#dcca8a, #c7a740),
+        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),
+        linear-gradient(#f6ebbe, #e6c34d);
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-padding: 15 30 15 30;
+    -fx-font-size: 22px;
+    -fx-text-fill: #311c09;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+    
+    -fx-font-family: "Lobster 1.3";
+}
+
+#big-yellow Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.5) , 0, 0.0 , 0 , 1);
+}
+
+#canvas {
+    -fx-pref-height: 200;
+    -fx-background-color: #5A5757;
+}
+
+.title-label {
+    -fx-font-size: 22;
+    -fx-padding: 10;
+    -fx-font-family: "Oswald Regular";
+    -fx-text-fill: #5ABFE0;
+}
+
+#animation-example-scrollPane {
+    -fx-background-color: transparent;
+}
